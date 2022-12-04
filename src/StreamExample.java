@@ -24,7 +24,7 @@ public class StreamExample {
 
         /*al.stream().map(i -> i+10).filter(i -> i%2 ==0 ).forEach(i -> System.out.println(i));
         al.stream().filter(i -> i%2 ==0 ).forEach(i -> System.out.println(i));*/
-        //System.out.println(al.stream().filter(i -> i%2 ==0 ).count());
+        System.out.println(al.stream().filter(i -> i%2 ==0 ).count());
         //al.stream().sorted((i1,i2) -> -i1.compareTo(i2)).forEach( i -> System.out.println(i));
         //List<Integer> al1 = al.stream().sorted((i1,i2) -> -i1.compareTo(i2)).collect(Collectors.toList());
         //System.out.println(al.stream().min((i1,i2) -> i1.compareTo(i2)).get());
