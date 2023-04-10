@@ -26,11 +26,6 @@ public class FunctionINterface {
 
 }
 
-/*
-interface CalculateSize{
 
-    String doPrint(int n);
-}
-*/
 
 
